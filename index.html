@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto módulo 3</title>
+</head>
+<body>
+        <h1>Mi Proyecto Final Modulo 3 JavaScript</h1>
+
+<p id="mensaje"></p>       
+<button onclick="SaludarUsuario()">Haz Click para comenzar</button>
+
+<script>
+function SaludarUsuario() {
+    let nombre = prompt("Por favor, ingresa tu nombre:");
+    if (nombre) {
+        alert("Hola " + nombre + ". Bienvenido a mi proyecto final del módulo 3 de JavaScript.");
+    } else {
+        alert("No ingresaste un nombre. Por favor, recarga la página e intenta nuevamente.");
+    }     
+}
+</script>
+
+<script src="./assets/java/script5.js"></script>
+
+
+
+</body>
+</html>
